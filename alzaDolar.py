@@ -41,7 +41,7 @@ if alzas[0][0] == 0:
     print("No se presentaron alzas en el precio del dólar para el periodo estimado")
 else:
     mostrar = alzas[1][1] + 1
-    print("En el cambio del día ",alzas[1][0]," para el día ",mostrar," se presentó la mayor alza en el precio del dólar por valor de ", alzas[0,0])
+    print("En el cambio del día ",alzas[1][0]," para el día ",mostrar," se presentó la mayor alza en el precio del dólar por valor de ", alzas[0][0])
 
 
 
